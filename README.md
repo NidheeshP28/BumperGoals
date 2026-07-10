@@ -1,8 +1,6 @@
-# ⚽ BumperGoals: Dual-Joystick Custom Tank-Drive Controller & Chassis
+# ⚽ BumperGoals: Miniature Soccer W/ Robots
 
-An ergonomic, compact, wireless remote control system designed around an upgraded Type-C Arduino Nano. BumperGoals is a tabletop robotic soccer game where two teams of custom-made mini bumper cars face off in a fast-paced 2v2 match to be the first to score 5 goals. 
-
-This repository covers the complete engineering design—including custom ergonomic controller shells, dual-joystick input mapping, custom PCBs, and differential tank-drive chassis firmware.
+For my BumperGoals project, I am building a tabletop robotic soccer game where two teams of custom-made mini bumper cars face off in a fast 2v2 match to be the first to score five goals. To control the cars, I am designing custom, easy-to-hold controllers that feature built-in screw holes, clean cutouts for the joysticks, and a top shell that snaps tightly onto the bottom plate. Inside the case, each of my controllers uses a tiny computer chip, a power booster to keep everything running smoothly on regular AA batteries, a simple power switch, and a wireless chip to talk to the robots. By writing my own code and uploading it using a plug-in hardware programmer, I am creating a completely wireless, real-life arcade game from scratch.
 
 ---
 
@@ -27,6 +25,24 @@ The mini bumper car chassis handles differential drive execution through twin N2
 </p>
 
 [![Test Robot Chassis on Wokwi W/ PCb](https://img.shields.io/badge/Wokwi-Simulate%20Robot%20Chassis-29b6f6?style=for-the-badge&logo=hardware)](https://wokwi.com/projects/469191659636854785)
+
+---
+
+## 🛠️ Step-by-Step Assembly Guide
+
+Building a complete BumperGoals unit involves assembling two parts: the custom handheld controller and the mini bumper car chassis.
+
+### 1. Assembling the Controller
+1. **Prepare the Electronics:** Place your custom Controller PCB flat on your workspace. Solder the microchip, power booster, wireless module, and power switch into their designated slots.
+2. **Mount the Joysticks:** Insert both analog joysticks into the front of the PCB. Make sure they are aligned vertically with their pins facing downward to match the clean wiring paths, then solder them securely.
+3. **Fit into the Lower Shell:** Place the AA battery holder into the bottom plate of your custom 3D-printed enclosure, routing the power leads to the switch and PCB power terminal. Secure the PCB onto the built-in screw pillars.
+4. **Enclose the Unit:** Carefully align the top shell cutout over the joysticks. Snap the top shell onto the bottom plate tightly and secure the corners using small assembly screws.
+
+### 2. Assembling the Robot Chassis
+1. **Solder the Drive Board:** Solder your Arduino Nano, motor driver, and wireless receiver module onto the main Robot Chassis PCB.
+2. **Mount the Motors:** Take your twin N20 DC gearmotors and slide them into their designated side-bracket mounts underneath the chassis. Solder their power leads directly to the motor driver output pins.
+3. **Add Wheels and Caster:** Press-fit the rubber wheels onto the extended D-shafts of the N20 motors. Bolt the smooth-rolling ball caster to the front of the chassis to complete the three-point stabilization.
+4. **Connect Power:** Install the battery pack, secure all loose wires, and clear the wheels for spin-testing.
 
 ---
 
