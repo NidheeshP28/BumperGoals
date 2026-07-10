@@ -12,6 +12,8 @@ This repository covers the complete engineering design—including custom ergono
 Inside the ergonomic case, each controller features parallel-mounted joysticks with uniform bottom-facing pin alignment for twist-free wiring, an integrated power booster to step up standard AA battery voltage safely, a simple power switch, and a wireless chip to talk to the cars.
 
 <p align="center">
+  <img width="840" height="671" alt="Controller" src="https://github.com/user-attachments/assets/beed4be8-3503-4e28-83ef-9d118cb53b05" />
+  <img width="946" height="747" alt="Board" src="https://github.com/user-attachments/assets/73483a1e-7638-4d3b-a6c8-d7a520617341" />
   <img src="Controller.png" alt="Custom Controller Render" width="45%">
   <img src="Board.png" alt="Controller PCB Layout" width="45%">
 </p>
