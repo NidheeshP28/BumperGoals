@@ -16,8 +16,7 @@ Inside the ergonomic case, each controller features parallel-mounted joysticks w
   <img src="https://github.com/user-attachments/assets/8dfe6b67-1346-4002-a630-50444e95716e" alt="Board" width="45%"/>
 </p>
 
-[![View Controller PCB on KiCanvas](https://img.shields.io/badge/KiCanvas-View%20Controller%20PCB-blue?style=for-the-badge&logo=kicad)](https://kicanvas.org/?github=https://github.com/NidheeshP28/BumperGoals/tree/main/pcb/controller)
-[![Test Controller on Wokwi](https://img.shields.io/badge/Wokwi-Simulate%20Controller-29b6f6?style=for-the-badge&logo=hardware)](https://wokwi.com/projects/469181826556015617)
+[![Test Controller on Wokwi W/ PCB](https://img.shields.io/badge/Wokwi-Simulate%20Controller-29b6f6?style=for-the-badge&logo=hardware)](https://wokwi.com/projects/469181826556015617)
 
 ### 🏎️ Robot Chassis PCB
 The mini bumper car chassis handles differential drive execution through twin N20 DC gearmotors paired with a smooth-rolling front ball caster for seamless turns on the playfield.
@@ -27,8 +26,7 @@ The mini bumper car chassis handles differential drive execution through twin N2
   <img src="https://github.com/user-attachments/assets/36c44d2c-2b33-4fdf-9f89-eefc627431bb" alt="MotorAssembly" width="45%"/>
 </p>
 
-[![View Robot PCB on KiCanvas](https://img.shields.io/badge/KiCanvas-View%20Robot%20PCB-blue?style=for-the-badge&logo=kicad)](https://kicanvas.org/?github=https://github.com/NidheeshP28/BumperGoals/tree/main/pcb/robot)
-[![Test Robot Chassis on Wokwi](https://img.shields.io/badge/Wokwi-Simulate%20Robot%20Chassis-29b6f6?style=for-the-badge&logo=hardware)](https://wokwi.com/projects/469191659636854785)
+[![Test Robot Chassis on Wokwi W/ PCb](https://img.shields.io/badge/Wokwi-Simulate%20Robot%20Chassis-29b6f6?style=for-the-badge&logo=hardware)](https://wokwi.com/projects/469191659636854785)
 
 ---
 
