@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "author": "Anonymous maker",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-nano", "id": "nano", "top": 0, "left": 0, "attrs": {} },
+    { "type": "wokwi-analog-joystick", "id": "joystick1", "top": -135, "left": 43.8, "attrs": {} },
+    { "type": "wokwi-analog-joystick", "id": "joystick2", "top": 85.8, "left": 53.4, "attrs": {} }
+  ],
+  "connections": [
+    [ "nano:GND.2", "joystick1:VCC", "black", [ "v0" ] ],
+    [ "joystick1:VERT", "nano:5V", "green", [ "v0" ] ],
+    [ "joystick1:HORZ", "nano:A0", "green", [ "v0" ] ],
+    [ "joystick1:SEL", "nano:A1", "green", [ "v0" ] ],
+    [ "joystick2:VCC", "nano:GND.1", "red", [ "v0" ] ],
+    [ "joystick2:VERT", "nano:5V", "green", [ "v0" ] ],
+    [ "joystick2:HORZ", "nano:A2", "green", [ "v0" ] ],
+    [ "joystick2:SEL", "nano:A3", "green", [ "v0" ] ],
+    [ "joystick2:GND", "nano:GND.1", "black", [ "v0" ] ],
+    [ "joystick2:VERT", "nano:A3", "green", [ "v0" ] ]
+  ],
+  "dependencies": {}
+}
