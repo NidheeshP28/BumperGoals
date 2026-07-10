@@ -12,10 +12,8 @@ This repository covers the complete engineering design—including custom ergono
 Inside the ergonomic case, each controller features parallel-mounted joysticks with uniform bottom-facing pin alignment for twist-free wiring, an integrated power booster to step up standard AA battery voltage safely, a simple power switch, and a wireless chip to talk to the cars.
 
 <p align="center">
-  <img width="840" height="671" alt="Controller" src="https://github.com/user-attachments/assets/beed4be8-3503-4e28-83ef-9d118cb53b05" />
-  <img width="946" height="747" alt="Board" src="https://github.com/user-attachments/assets/73483a1e-7638-4d3b-a6c8-d7a520617341" />
-  <img src="Controller.png" alt="Custom Controller Render" width="45%">
-  <img src="Board.png" alt="Controller PCB Layout" width="45%">
+  <img src="C:\Users\Kasi Pusuluri\Documents\Outpost 2026\Assets\Parts\Controller.png" alt="Custom Controller Render" width="45%">
+  <img src="C:\Users\Kasi Pusuluri\Documents\Outpost 2026\Assets\Parts\Board.png" alt="Controller PCB Layout" width="45%">
 </p>
 
 [![View Controller PCB on KiCanvas](https://img.shields.io/badge/KiCanvas-View%20Controller%20PCB-blue?style=for-the-badge&logo=kicad)](https://kicanvas.org/?github=https://github.com/<OWNER>/<REPOSITORY>/tree/main/pcb/controller)
@@ -25,8 +23,8 @@ Inside the ergonomic case, each controller features parallel-mounted joysticks w
 The mini bumper car chassis handles differential drive execution through twin N20 DC gearmotors paired with a smooth-rolling front ball caster for seamless turns on the playfield.
 
 <p align="center">
-  <img src="Robot.png" alt="Robot Chassis Render" width="45%">
-  <img src="MotorAssembly.png" alt="Motor Assembly Close-up" width="45%">
+  <img src="C:\Users\Kasi Pusuluri\Documents\Outpost 2026\Assets\Parts\Robot.png" alt="Robot Chassis Render" width="45%">
+  <img src="C:\Users\Kasi Pusuluri\Documents\Outpost 2026\Assets\Parts\MotorAssembly.png" alt="Motor Assembly Close-up" width="45%">
 </p>
 
 [![View Robot PCB on KiCanvas](https://img.shields.io/badge/KiCanvas-View%20Robot%20PCB-blue?style=for-the-badge&logo=kicad)](https://kicanvas.org/?github=https://github.com/<OWNER>/<REPOSITORY>/tree/main/pcb/robot)
