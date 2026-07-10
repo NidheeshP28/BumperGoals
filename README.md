@@ -12,22 +12,22 @@ This repository covers the complete engineering design—including custom ergono
 Inside the ergonomic case, each controller features parallel-mounted joysticks with uniform bottom-facing pin alignment for twist-free wiring, an integrated power booster to step up standard AA battery voltage safely, a simple power switch, and a wireless chip to talk to the cars.
 
 <p align="center">
-  <img src="C:\Users\Kasi Pusuluri\Documents\Outpost 2026\Assets\Parts\Controller.png" alt="Custom Controller Render" width="45%">
-  <img src="C:\Users\Kasi Pusuluri\Documents\Outpost 2026\Assets\Parts\Board.png" alt="Controller PCB Layout" width="45%">
+  <img src="https://github.com/user-attachments/assets/6e111d4a-f026-431c-82f2-01922a5f8236" alt="Controller" width="45%"/>
+  <img src="https://github.com/user-attachments/assets/8dfe6b67-1346-4002-a630-50444e95716e" alt="Board" width="45%"/>
 </p>
 
-[![View Controller PCB on KiCanvas](https://img.shields.io/badge/KiCanvas-View%20Controller%20PCB-blue?style=for-the-badge&logo=kicad)](https://kicanvas.org/?github=https://github.com/<OWNER>/<REPOSITORY>/tree/main/pcb/controller)
+[![View Controller PCB on KiCanvas](https://img.shields.io/badge/KiCanvas-View%20Controller%20PCB-blue?style=for-the-badge&logo=kicad)](https://kicanvas.org/?github=https://github.com/NidheeshP28/BumperGoals/tree/main/pcb/controller)
 [![Test Controller on Wokwi](https://img.shields.io/badge/Wokwi-Simulate%20Controller-29b6f6?style=for-the-badge&logo=hardware)](https://wokwi.com/projects/469181826556015617)
 
 ### 🏎️ Robot Chassis PCB
 The mini bumper car chassis handles differential drive execution through twin N20 DC gearmotors paired with a smooth-rolling front ball caster for seamless turns on the playfield.
 
 <p align="center">
-  <img src="C:\Users\Kasi Pusuluri\Documents\Outpost 2026\Assets\Parts\Robot.png" alt="Robot Chassis Render" width="45%">
-  <img src="C:\Users\Kasi Pusuluri\Documents\Outpost 2026\Assets\Parts\MotorAssembly.png" alt="Motor Assembly Close-up" width="45%">
+  <img src="https://github.com/user-attachments/assets/3412b70d-9c2a-413e-8262-f3925325845d" alt="Robot" width="45%"/>
+  <img src="https://github.com/user-attachments/assets/36c44d2c-2b33-4fdf-9f89-eefc627431bb" alt="MotorAssembly" width="45%"/>
 </p>
 
-[![View Robot PCB on KiCanvas](https://img.shields.io/badge/KiCanvas-View%20Robot%20PCB-blue?style=for-the-badge&logo=kicad)](https://kicanvas.org/?github=https://github.com/<OWNER>/<REPOSITORY>/tree/main/pcb/robot)
+[![View Robot PCB on KiCanvas](https://img.shields.io/badge/KiCanvas-View%20Robot%20PCB-blue?style=for-the-badge&logo=kicad)](https://kicanvas.org/?github=https://github.com/NidheeshP28/BumperGoals/tree/main/pcb/robot)
 [![Test Robot Chassis on Wokwi](https://img.shields.io/badge/Wokwi-Simulate%20Robot%20Chassis-29b6f6?style=for-the-badge&logo=hardware)](https://wokwi.com/projects/469191659636854785)
 
 ---
