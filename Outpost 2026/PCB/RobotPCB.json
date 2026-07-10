@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "author": "Anonymous maker",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-nano", "id": "nano", "top": 0, "left": 0, "attrs": {} },
+    { "type": "wokwi-led", "id": "led1", "top": -51.6, "left": 167, "attrs": { "color": "red" } },
+    {
+      "type": "wokwi-led",
+      "id": "led2",
+      "top": -51.6,
+      "left": -34.6,
+      "attrs": { "color": "red" }
+    },
+    { "type": "wokwi-led", "id": "led3", "top": 63.6, "left": -25, "attrs": { "color": "red" } },
+    { "type": "wokwi-led", "id": "led4", "top": 63.6, "left": 167, "attrs": { "color": "red" } }
+  ],
+  "connections": [
+    [ "led2:A", "nano:3", "green", [ "v0" ] ],
+    [ "led2:C", "nano:GND.2", "green", [ "v0" ] ],
+    [ "led3:C", "nano:GND.1", "green", [ "v0" ] ],
+    [ "led1:A", "nano:5", "green", [ "v0" ] ],
+    [ "led1:C", "nano:GND.2", "green", [ "v0" ] ],
+    [ "led4:A", "nano:6", "green", [ "v0" ] ],
+    [ "led4:C", "nano:GND.1", "green", [ "v0" ] ],
+    [ "led3:A", "nano:9", "green", [ "v0" ] ]
+  ],
+  "dependencies": {}
+}
