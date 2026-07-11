@@ -1,4 +1,8 @@
-# BumperGoals: Miniature Soccer W/ Robots
+# BumperGoals
+
+[![GitHubTree](https://img.shields.io/badge/GitHubTree-BumperGoals-blue?style=flat-square)](https://githubtree.mgks.dev/repo/NidheeshP28/BumperGoals/main/?ref=badge)
+
+## Description
 
 For my BumperGoals project, I built a mini robotic soccer game where two teams of two have a mini bumper cars face off to be the first to score five goals. To control the cars, I designed custom controllers that feature built-in screw holes, clean cutouts for the joysticks, and a top shell that snaps tightly onto the bottom plate. Inside the case, each of the controllers uses a tiny computer chip, a power booster on AA batteries, a simple power switch, and a wireless chip to connect to the robots. By uploading code using a plug-in hardware programmer, I created a completely wireless, arcade game from scratch.
 
@@ -218,4 +222,3 @@ Because the left and right DC gearmotors are physically mirrored on opposite sid
 │       ├── MotorPCB.json
 │       └── RobotPCB.json
 └── README.md
-
