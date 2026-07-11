@@ -1,6 +1,6 @@
 # BumperGoals: Miniature Soccer W/ Robots
 
-For my BumperGoals project, I built a tabletop robotic soccer game where two teams of two have a mini bumper cars face off to be the first to score five goals. To control the cars, I designed custom controllers that feature built-in screw holes, clean cutouts for the joysticks, and a top shell that snaps tightly onto the bottom plate. Inside the case, each of the controllers uses a tiny computer chip, a power booster on AA batteries, a simple power switch, and a wireless chip to connect to the robots. By writing my own code and uploading it using a plug-in hardware programmer, I created a completely wireless, arcade game from scratch.
+For my BumperGoals project, I built a mini robotic soccer game where two teams of two have a mini bumper cars face off to be the first to score five goals. To control the cars, I designed custom controllers that feature built-in screw holes, clean cutouts for the joysticks, and a top shell that snaps tightly onto the bottom plate. Inside the case, each of the controllers uses a tiny computer chip, a power booster on AA batteries, a simple power switch, and a wireless chip to connect to the robots. By uploading code using a plug-in hardware programmer, I created a completely wireless, arcade game from scratch.
 
 ---
 
@@ -25,7 +25,7 @@ The mini bumper car chassis handles differential drive through twin N20 DC gearm
 <p align="center">
   <img src="https://github.com/user-attachments/assets/3412b70d-9c2a-413e-8262-f3925325845d" alt="Robot" width="45%"/>
   <img src="https://github.com/user-attachments/assets/36c44d2c-2b33-4fdf-9f89-eefc627431bb" alt="MotorAssembly" width="45%"/>
-  <img width="512" height="321" alt="image" src="https://github.com/user-attachments/assets/dfe23223-3fb8-4bad-897c-af17101e789a" />
+  <img src="https://github.com/user-attachments/assets/dfe23223-3fb8-4bad-897c-af17101e789a" alt="ControllerPCB" width="45%"/>
 </p>
 
 The PCB is an Arduino Nano 3.0 ATmega328P Controller Board which when connected to our motors (in this scenario the LEDs), it will help it guide the robot for rotation purposes. The button below shows how the system identifies on how the the direction of the motors can dicide on which direction to go.
@@ -105,6 +105,14 @@ Because the left and right DC gearmotors are physically mirrored on opposite sid
 
 ---
 
-## 📂 Repository Structure
-* `/software` : Contains the Wokwi simulation testing sketches and stable core logic files.
-* `/pcb` : Contains KiCad schematic diagrams, custom routing layers, and manufacturing files.
+## Repository Structure
+graph TD
+    Outpost 2026 --> Assets
+    Outpost 2026 --> CAD
+    Outpost 2026 --> Firmware
+    Outpost 2026 --> PCB
+    Assets --> Devlogs
+    Assets --> Parts
+    CAD --> Bumper Car
+    CAD --> Controller
+    CAD --> Printables
