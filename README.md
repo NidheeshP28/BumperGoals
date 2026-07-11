@@ -106,8 +106,116 @@ Because the left and right DC gearmotors are physically mirrored on opposite sid
 ---
 
 ## Repository Structure
-graph TD
-    A[Root] --> B[Child 1]
-    A --> C[Child 2]
-    B --> D[Grandchild 1]
-    C --> E[Grandchild 2]
+
+├── Outpost 2026/
+│   ├── Assets/
+│   │   ├── Devlogs/
+│   │   │   ├── Devlog1.png
+│   │   │   ├── Devlog10.png
+│   │   │   ├── Devlog11.png
+│   │   │   ├── Devlog12.png
+│   │   │   ├── Devlog13.png
+│   │   │   ├── Devlog14.png
+│   │   │   ├── Devlog15.png
+│   │   │   ├── Devlog16.png
+│   │   │   ├── Devlog17.png
+│   │   │   ├── Devlog18.png
+│   │   │   ├── Devlog19.png
+│   │   │   ├── Devlog2.png
+│   │   │   ├── Devlog20.png
+│   │   │   ├── Devlog21.png
+│   │   │   ├── Devlog22.png
+│   │   │   ├── Devlog23.png
+│   │   │   ├── Devlog3.png
+│   │   │   ├── Devlog4.png
+│   │   │   ├── Devlog5.png
+│   │   │   ├── Devlog6.png
+│   │   │   ├── Devlog7.png
+│   │   │   ├── Devlog8.png
+│   │   │   └── Devlog9.png
+│   │   ├── Parts/
+│   │   │   ├── Board.png
+│   │   │   ├── Controller.png
+│   │   │   ├── MotorAssembly.png
+│   │   │   └── Robot.png
+│   │   ├── Bumper Goals Outpost Budget.csv
+│   │   └── README.md
+│   ├── CAD/
+│   │   ├── Bumper Car/
+│   │   │   ├── BumperCarV1/
+│   │   │   │   ├── Bumper.ipt
+│   │   │   │   ├── BumperCar.iam
+│   │   │   │   ├── BumperTop.ipt
+│   │   │   │   ├── BumperTop2.ipt
+│   │   │   │   └── BumperTop3.ipt
+│   │   │   └── BumperCarV2/
+│   │   │       ├── OldVersions/
+│   │   │       │   └── ExteriorBumperCar.0005.iam
+│   │   │       ├── Base.ipt
+│   │   │       ├── Battery.ipt
+│   │   │       ├── Batteryy.ipt
+│   │   │       ├── Batteryyy.ipt
+│   │   │       ├── Batteryyyy.ipt
+│   │   │       ├── BevelGear.ipt
+│   │   │       ├── BumperBody.ipt
+│   │   │       ├── BumperCaster.ipt
+│   │   │       ├── BumperCaster2.ipt
+│   │   │       ├── BumperWheel.ipt
+│   │   │       ├── BumperWheel2.ipt
+│   │   │       ├── Connector1.ipt
+│   │   │       ├── ExteriorBumperCar.iam
+│   │   │       ├── ExteriorBumperCar2.iam
+│   │   │       ├── MotorProtector.ipt
+│   │   │       ├── MotorProtector2.ipt
+│   │   │       ├── N20Motor.ipt
+│   │   │       ├── NRF24L01+.ipt
+│   │   │       ├── PCB.ipt
+│   │   │       ├── PCB2.ipt
+│   │   │       ├── Top.ipt
+│   │   │       ├── TopScrew.ipt
+│   │   │       ├── WheelAssembly.iam
+│   │   │       └── WheelConnector.ipt
+│   │   ├── Controller/
+│   │   │   ├── BatteryHolder.ipt
+│   │   │   ├── ControllerAssembly.iam
+│   │   │   ├── ControllerBottom.ipt
+│   │   │   ├── ControllerTop.ipt
+│   │   │   ├── SlideSwitch.ipt
+│   │   │   └── VoltageRegulator.ipt
+│   │   ├── Printables/
+│   │   │   ├── BumperCar/
+│   │   │   │   ├── BevelGear - Copy.ipt
+│   │   │   │   ├── BevelGear.ipt
+│   │   │   │   ├── BumperWheel2 - Copy.ipt
+│   │   │   │   ├── BumperWheel2.ipt
+│   │   │   │   ├── ExteriorBumperCar.iam
+│   │   │   │   ├── Top.ipt
+│   │   │   │   ├── TopScrew - Copy (2).ipt
+│   │   │   │   ├── TopScrew - Copy (3).ipt
+│   │   │   │   ├── TopScrew - Copy.ipt
+│   │   │   │   └── TopScrew.ipt
+│   │   │   ├── Controller/
+│   │   │   │   ├── ControllerBottom.ipt
+│   │   │   │   └── ControllerTop.ipt
+│   │   │   └── STEP Files/
+│   │   │       ├── BevelGear.stp
+│   │   │       ├── Board.stp
+│   │   │       ├── BumperWheel2.stp
+│   │   │       ├── ControllerBottom.stp
+│   │   │       ├── ControllerTop.stp
+│   │   │       ├── ExteriorBumperCar.stp
+│   │   │       ├── Top.stp
+│   │   │       ├── TopScrew.step
+│   │   │       └── TopScrew.stp
+│   │   └── Board.ipt
+│   ├── Firmware/
+│   │   ├── ControllerFirmware.ino
+│   │   ├── ControllerFirmware2.ino
+│   │   └── RobotFirmware.ino
+│   └── PCB/
+│       ├── ControllerPCB.json
+│       ├── ControllerPCB2.json
+│       ├── MotorPCB.json
+│       └── RobotPCB.json
+└── README.md
+
