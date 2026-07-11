@@ -107,12 +107,7 @@ Because the left and right DC gearmotors are physically mirrored on opposite sid
 
 ## Repository Structure
 graph TD
-    Outpost 2026 --> Assets
-    Outpost 2026 --> CAD
-    Outpost 2026 --> Firmware
-    Outpost 2026 --> PCB
-    Assets --> Devlogs
-    Assets --> Parts
-    CAD --> Bumper Car
-    CAD --> Controller
-    CAD --> Printables
+    A[Root] --> B[Child 1]
+    A --> C[Child 2]
+    B --> D[Grandchild 1]
+    C --> E[Grandchild 2]
