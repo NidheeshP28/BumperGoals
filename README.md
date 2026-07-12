@@ -70,7 +70,7 @@ Make sure the robot looks like this:
 
 ---
 
-## 🔌 Hardware Pin Configuration
+## Hardware Pin Configuration
 
 To maintain clean, wire paths inside the controller shell, the joysticks are mounted vertically with pins facing downward. The purpose of this is to show how on the left joystick you can only go foward and backward, while on the right joystick you can only rotate left and right. The pinouts map directly to the Arduino Nano as follows:
 
@@ -87,7 +87,7 @@ To maintain clean, wire paths inside the controller shell, the joysticks are mou
 
 ---
 
-## 🕹️ Movement Logic Matrix
+## Movement Logic Matrix
 
 Because the left and right DC gearmotors are physically mirrored on opposite sides of the chassis, their directional rotations are configured to execute the following differential steering maneuvers flawlessly:
 
