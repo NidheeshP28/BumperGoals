@@ -87,7 +87,7 @@ To maintain clean, wire paths inside the controller shell, the joysticks are mou
 
 ---
 
-## Movement Logic Matrix
+## Movement Logic Configuration
 
 Because the left and right DC gearmotors are physically mirrored on opposite sides of the chassis, their directional rotations are configured to execute the following differential steering maneuvers flawlessly:
 
