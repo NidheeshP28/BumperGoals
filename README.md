@@ -44,7 +44,7 @@ The button below shows how the system identifies on how the the direction of the
 
 Building a complete Bumper Goals game involves assembling two parts: the controller and the bumper car. 
 
-Make sure to have all the materials provided in the BOM (You can also see it in Outpost --> Assets ---> Bumper Goals Outpost Budget):
+Make sure to have all the materials provided in the BOM (You can also see it in BOM2.csv):
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/6bc7d630-b52d-4764-80ab-f9f365077de4" alt="BOM" width="45%"/>
@@ -59,8 +59,8 @@ Make sure to have all the materials provided in the BOM (You can also see it in 
 Make sure the controller and wiring looks like this:
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/e92caf04-0704-4593-828b-914f8709e23f" alt="ControllerAssembly"/>
-  <img width="463" height="732" alt="Wiring" src="https://github.com/user-attachments/assets/79c80fe1-e712-4c5f-9f6f-9d2dec58a955" />
+  <img src="https://github.com/user-attachments/assets/e92caf04-0704-4593-828b-914f8709e23f" alt="ControllerAssembly" width="45%"/>
+  <img src="https://github.com/user-attachments/assets/79c80fe1-e712-4c5f-9f6f-9d2dec58a955" alt="Wiring" width="45%"/>
 </p>
 
 ### 2. Assembling the Robot Chassis
